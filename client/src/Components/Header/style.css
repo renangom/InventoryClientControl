@@ -1,0 +1,46 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    height: 60px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+
+  .logout {
+    border: none;
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .logout:hover {
+    background-color: #333;
+    color: #fff;
+  }
